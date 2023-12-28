@@ -287,7 +287,7 @@ const beneficiaryTable = async(req, res)=>{
     return res.status(500).json({message:"Internal Server Error"});
   }
 }
-export default {signup, verifyVendor, requestVerificationCode, vendorLogin, passwordRestLink, restPassword, createStoreVendor, productPrice, socialAccount };
+export default {signup, verifyVendor, requestVerificationCode, vendorLogin, passwordRestLink, restPassword, beneficiaryTable, createStoreVendor, productPrice, socialAccount };
 
 
 

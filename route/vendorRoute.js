@@ -18,4 +18,5 @@ router.put('/updateProduct/:id', Product.updateProduct)
 router.delete('/deleteProduct/:id', Product.deleteProduct)
 router.post('/addPrice', vendor.productPrice)
 router.post('/socialMedia', vendor.socialAccount)
+router.post('/beneficiary', vendor.beneficiaryTable)
 export default router;
